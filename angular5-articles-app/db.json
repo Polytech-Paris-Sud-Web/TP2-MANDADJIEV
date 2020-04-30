@@ -1,0 +1,28 @@
+{
+  "articles": [
+    {
+      "id": 0,
+      "title": "Article 1",
+      "content": "Hello le monde",
+      "authors": "jak0nil"
+    },
+    {
+      "id": 1,
+      "title": "Angular component",
+      "content": "Angular component looks awesome!",
+      "authors": "jak0nil"
+    },
+    {
+      "id": 2,
+      "title": "Angular service",
+      "content": "I read something about angular service, i will try it soon",
+      "authors": "jak0nil"
+    },
+    {
+      "title": "Created article",
+      "content": "I created this article from the form",
+      "authors": "jak0nil",
+      "id": 3
+    }
+  ]
+}
