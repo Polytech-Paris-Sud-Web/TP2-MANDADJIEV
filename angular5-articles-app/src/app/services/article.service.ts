@@ -16,6 +16,10 @@ export class ArticleService {
     return this.http.get<Article[]>("http://localhost:3000/articles");
   }
 
+  public getArticles(search: string): Observable<Article[]> {
+    return this.http.get<Article[]>(`http://localhost:3000/articles/?q=${search}`);
+  }
+
   public get(id:number): Observable<Article> {
     return this.http.get<Article>(`http://localhost:3000/articles/${id}`);
   }
